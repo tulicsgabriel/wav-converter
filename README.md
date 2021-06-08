@@ -1,7 +1,10 @@
 # wav-converter
 # Resample wav files easily with just a few lines of code 
 
-<img align="center" src="plot.png" alt="plot">
+<p align="center">
+  <img src="plot.png" alt="plot"/>
+</p>
+
 
 The script loops through an Input directory, reads wav file with 16 kHz with **librosa**, prints filename and new sample rate (fs) and save wav file with **soundfile** in the Output dir as mono wav file with 16 kHz and 16 bit linear quantization.
 
